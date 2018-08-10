@@ -78,6 +78,10 @@
 
 - [Git Internals by Scott Chacon](https://github.com/pluralsight/git-internals-pdf) (how git works internally)
 
+- diff
+    - word-diff
+    - dir-diff
+
 - Configuration
     - git log
         https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs/35075021
