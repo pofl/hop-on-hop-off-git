@@ -169,6 +169,11 @@ This guide will not cover any of the following topics. It assumes the reader kno
     - lazygit
         - <https://github.com/jesseduffield/lazygit>
 
+- 'Detached HEAD'
+    - HEAD is a reference. It points to a commit like any other reference. The commit it points to will become the parent if you create a new commit.
+    - Most of the time HEAD will point to a commit via pointing to a branch. If that is the case the behavior of `commit` will be that on top of making the current commit the parent of a new commit, also, the pointed-to branch reference will be set to the new commit. This is the default behavior as you know it.
+    - However at times HEAD will point to a commit directly, not via another reference. This case if called 'detached HEAD' i.e. there is no branch attached to head. And new commits will not be retrievable through traversing the commit graph.
+
 - `reflog`
 
 - `cherry-pick`
