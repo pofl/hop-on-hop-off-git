@@ -1,0 +1,6 @@
+site_name: The hop-on-hop-off guide to Git
+theme: 'material'
+pages:
+  - index.md
+  - guide.md
+  - rest.md
