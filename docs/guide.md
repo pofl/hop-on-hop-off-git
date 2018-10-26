@@ -3,7 +3,7 @@
 ## Best practices
 
 - [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/#seven-rules)
-    - Learn these rules! The rest of the text is very informative as well.
+    - Learn these rules! The rest of this article is very informative as well.
 - [What should be in version control... and what should not.](https://hackernoon.com/what-should-be-in-version-control-d5f16e9a2bf2)
 
 
