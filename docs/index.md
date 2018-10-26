@@ -10,16 +10,21 @@ Goals of this guide:
 
 - For every little facet and detail of using git there exists a blog post or StackOverflow question or both that explain that particular topic very well. Instead of re-writing everything this guide stays concise and links to the full explanations.
 
+This guide comes in two parts. Firstly, the guide itself, and secondly, a sort of appendix, where I'll dump additional links and information in a less structured form.
+
 ### Target audience
 
 You should fall into one of these categories:
 
-- You're already __a little familiar with Git__.
+- You're already __familiar with Git to some extent__.
     - This guide is for you. To continue we assume you know everything listed in the next chapter. If you do not know something listed there, google the words that don't sound familiar to you.
 
 - You're __new to Git__ and/or Version Control Systems in general.
     - In this case you're better off reading a book about Git and after that return to this guide.
+        - Here is a beautiful git command reference: <https://ndpsoftware.com/git-cheatsheet.html>
         - Here is an incomplete list of git books/guides: <https://hackr.io/tutorials/learn-git>
+        - Here is a comprehensive StacḱOverflow question+answers that also covers the basics and includes a list of books and guides: <https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide>
+        - [GitHub's Git learning resources](http://try.github.io/)
 
 ### Motivation
 
