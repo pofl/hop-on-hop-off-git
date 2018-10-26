@@ -10,7 +10,7 @@ Goals of this guide:
 
 - For every little facet and detail of using git there exists a blog post or StackOverflow question or both that explain that particular topic very well. Instead of re-writing everything this guide stays concise and links to the full explanations.
 
-This guide comes in two parts. Firstly, the guide itself, and secondly, a sort of appendix, where I'll dump additional links and information in a less structured form.
+This guide comes in two parts. Firstly, the [__guide__](https://github.com/pofl/git-guide/blob/master/docs/guide.md) itself, and secondly, a sort of [appendix](https://github.com/pofl/git-guide/blob/master/docs/rest.md), where I'll dump additional links and information in a less structured form.
 
 ### Target audience
 
