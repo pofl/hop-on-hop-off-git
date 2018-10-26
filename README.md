@@ -1,4 +1,4 @@
-#  Introduction
+#  Hop-on-hop-off guide to git
 
 This guide is intended to be your guiding light in the dark dangerous cave of learning Git.
 
