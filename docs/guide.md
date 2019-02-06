@@ -58,7 +58,7 @@
         - [When should I use `git pull --rebase`?](https://stackoverflow.com/questions/2472254/when-should-i-use-git-pull-rebase)
         - And another article discouraging `pull`: <https://adamcod.es/2014/12/10/git-pull-correct-workflow.html>
     - `pull` is actually considered harmful!
-        - The preferred way to get remote changes is: Use `ull --ff-only` and if it fails __consciously take appropriate actions__ with merge, rebase, cherry-pick, whatever.
+        - The preferred way to get remote changes is: Use `pull --ff-only` and if it fails __consciously take appropriate actions__ with merge, rebase, cherry-pick, whatever.
         - Read the answers to this [SO question](https://stackoverflow.com/questions/15316601/in-what-cases-could-git-pull-be-harmful)
 
 ## Workflow
