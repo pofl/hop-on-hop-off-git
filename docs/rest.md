@@ -12,9 +12,8 @@
     - `git rm --cached <file>` for single files
     - for many files/directories
         - `git rm -r --cached .`
-        - `git add -A
-`
-        - ``
+        - `git add -A`
+        - `git commit -am 'Removing ignored files'`
 
 - `checkout -m`
 
