@@ -12,7 +12,8 @@
     - `git rm --cached <file>` for single files
     - for many files/directories
         - `git rm -r --cached .`
-        - ``
+        - `git add -A
+`
         - ``
 
 - `checkout -m`
