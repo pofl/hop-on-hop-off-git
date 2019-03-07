@@ -14,7 +14,7 @@
 ## A Git repository is a directed acyclic graph (DAG) of commits
 
 - The commit DAG is frequently reported to be "the most important thing to realize about git". You should strive to _understand every git command in terms of how it manipulates the commit graph!_ The VGR is an excellent resource to understand this.
-- Have a look at the DAG of your repository with `'git log --all --decorate --oneline --graph` (log adog / _"look, a dog!"_)
+- Have a look at the DAG of your repository with `git log --all --decorate --oneline --graph` (log adog / _"look, a dog!"_)
 - What you need to internalize is that __commits are nodes in a DAG__. All commits have one parent commit, merge commits have two parents.
 - Another concept you need to understand are references. __Branches, tags and HEAD are all references__. Which basically means they are an alias of a particular commit.
 - Examples: "`merge`creates a commit with two parent commits", "`cherry-pick` takes a list of commit hashes and applies them as patches onto HEAD" and "`reset` takes a reference to or the hash of a commit and makes the current branch point to it".
@@ -35,7 +35,7 @@
 - Rebase does the same as cherry-pick, only for entire branches automatically. The VGR explains the technical side of rebases pretty well.
 - This guide -- [Getting solid at Git rebase vs. merge](https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa) -- explains in depth the pros and cons of rebase and merge. It's a very long post and many of its contents will also be covered in this guide. However, you should definitely add this to your read-later list.
 
-### `'push --force'` / `'push --force-with-lease'`
+### `push --force` / `push --force-with-lease`
 
 - After you rebased a branch it contains different commits than before. Because of that `git push` will reject your changes.
 - A full explanation of the problem and why `--force-with-lease` is a better solution than `--force` can be found [here](https://developer.atlassian.com/blog/2015/04/force-with-lease/).
@@ -87,7 +87,7 @@
     - <https://hackernoon.com/when-to-use-git-reset-git-revert-git-checkout-dc4824795d9>
     - <https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting>
 
-- `'squash` / `'commit --fixup` / `'rebase --auto-squash`
+- `squash` / `commit --fixup` / `rebase --auto-squash`
     - <https://robots.thoughtbot.com/autosquashing-git-commits>
 
 - A clean commit history is nice, but sometimes you end up wasting time on it. So keep in mind that sometimes branching and merging is a good enough workflow. Also, here's an opinion that [you should stop using rebase](https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1).
