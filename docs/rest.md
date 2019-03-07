@@ -8,6 +8,9 @@
     - `-r` / `--rebase-merges` <https://git-scm.com/docs/git-rebase#_rebasing_merges>
     - `-p` / `--preserve-merges` <https://stackoverflow.com/questions/4783599/rebasing-a-git-merge-commit>
 
+- Untracking files after adding them to .gitignore
+    
+
 - `checkout -m`
 
 - [Set branch to current ref](https://stackoverflow.com/questions/7580542/git-set-branch-to-current-ref) (`git checkout -B <branch>
