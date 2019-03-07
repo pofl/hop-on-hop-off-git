@@ -23,6 +23,8 @@
 
 - Comparison of `git add .`, `git add --all` (-A) and `git add --update` (-u): <https://stackoverflow.com/a/26039014/9039623>
 
+- If you like to use Emojis in commit messages please follow this guideline which tries to standardise the semantics of Emojis: <https://gitmoji.carloscuesta.me/>
+
 - [Git Internals by Scott Chacon](https://github.com/pluralsight/git-internals-pdf) (how git works internally)
 
 - diff
