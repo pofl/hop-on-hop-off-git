@@ -21,7 +21,7 @@
 - [Set branch to current ref](https://stackoverflow.com/questions/7580542/git-set-branch-to-current-ref) (`git checkout -B <branch>
 `)
 
-- Comparison of `git add .`, `git add --all` and `git add --update`: <https://stackoverflow.com/a/26039014/9039623>
+- Comparison of `git add .`, `git add --all` (-A) and `git add --update` (-u): <https://stackoverflow.com/a/26039014/9039623>
 
 - [Git Internals by Scott Chacon](https://github.com/pluralsight/git-internals-pdf) (how git works internally)
 
