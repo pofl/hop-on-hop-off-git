@@ -8,8 +8,8 @@
     - `-r` / `--rebase-merges` <https://git-scm.com/docs/git-rebase#_rebasing_merges>
     - `-p` / `--preserve-merges` <https://stackoverflow.com/questions/4783599/rebasing-a-git-merge-commit>
 
-- Untracking files after adding them to .gitignore
-    
+- [Untracking files after adding them to .gitignore]()
+    - `git rm --cached <file>` for single files
 
 - `checkout -m`
 
