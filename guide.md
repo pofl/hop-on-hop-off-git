@@ -10,6 +10,7 @@
 ## [The Visual Git Reference (VGR)](http://marklodato.github.io/visual-git-guide/index-en.html)
 
 - This is the mother of all informative resources about Git. Read it very carefully.
+- There is also a good web-app which helps you learn the behavior of git: <https://learngitbranching.js.org/>
 
 ## A Git repository is a directed acyclic graph (DAG) of commits
 
