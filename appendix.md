@@ -18,8 +18,7 @@
 
 - `checkout -m`
 
-- [Set branch to current ref](https://stackoverflow.com/questions/7580542/git-set-branch-to-current-ref) (`git checkout -B <branch>
-`)
+- [Set branch to current ref](https://stackoverflow.com/questions/7580542/git-set-branch-to-current-ref) (`git checkout -B <branch>`)
 
 - Comparison of `git add .`, `git add --all` (-A) and `git add --update` (-u): <https://stackoverflow.com/a/26039014/9039623>
 
