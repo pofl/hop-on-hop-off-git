@@ -1,6 +1,6 @@
 # The hop-on-hop-off guide to git
 
-Part 1 - [The hop-on-hop-off Guide to Git](https://github.com/pofl/git-guide/blob/master/guide.md)
+Part 1 - [The hop-on-hop-off Guide to Git](https://github.com/pofl/git-guide/blob/master/guide.md)  
 Part 2 - [Appendix](https://github.com/pofl/git-guide/blob/master/appendix.md) (still in Alpha)
 
 Target audience: Advanced Git users who want to become experts with Git. This is not for beginners! See section _Target audience_.
