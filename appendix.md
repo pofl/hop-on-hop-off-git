@@ -12,11 +12,17 @@
     - `git rm --cached <file>` for single files
     - for many files/directories
 
-            `git rm -r --cached .`
-            `git add -A`
-            `git commit -am 'Removing ignored files'`
+          git rm -r --cached .
+          git add -A
+          git commit -am 'Removing ignored files'
 
 - `checkout -m`
+
+- `git branch -f master HEAD~3` is equivalent to  
+
+      git checkout master
+      git reset --hard HEAD@{1}~3
+
 
 - [Set branch to current ref](https://stackoverflow.com/questions/7580542/git-set-branch-to-current-ref) (`git checkout -B <branch>`)
 
