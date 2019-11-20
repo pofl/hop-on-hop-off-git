@@ -35,6 +35,11 @@
 - diff
     - word-diff
     - dir-diff
+    
+- subtree
+    - <https://tsh.io/blog/git-subtree-or-how-i-stopped-worrying-and-learned-to-love-external-dependencies/>
+    - <https://medium.com/@porteneuve/mastering-git-subtrees-943d29a798ec>
+    - <https://www.atlassian.com/git/tutorials/git-subtree>
 
 - Patches in Git
     - The output `diff` produces is the format of the Unix program 'patch' (<https://stackoverflow.com/a/8279783/9039623>)
