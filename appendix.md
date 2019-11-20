@@ -39,6 +39,12 @@
     - word-diff
     - dir-diff
     
+- Cherry-picking vs Merging
+    - [Stop cherry-picking, start merging](https://devblogs.microsoft.com/oldnewthing/?p=98325)
+    - [Stop merging if you need to cherry-pick](https://devblogs.microsoft.com/oldnewthing/?p=99195)
+        - Is the last post in the series "Stop cherry-picking, start merging" and a response to the original articles from another team at Microsoft.
+        - "the problem case is where you cherry-pick between two branches that will eventually merge. If the two branches never merge, then there's no need to get all fancy with your cherry-picking."
+    
 - subtree
     - <https://tsh.io/blog/git-subtree-or-how-i-stopped-worrying-and-learned-to-love-external-dependencies/>
     - <https://medium.com/@porteneuve/mastering-git-subtrees-943d29a798ec>
