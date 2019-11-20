@@ -30,7 +30,10 @@
 
 - If you like to use Emojis in commit messages please follow this guideline which tries to standardise the semantics of Emojis: <https://gitmoji.carloscuesta.me/>
 
-- [Git Internals by Scott Chacon](https://github.com/pluralsight/git-internals-pdf) (how git works internally)
+- How Git works internally
+    - [Git commits are not stored as diffs](https://medium.com/@gohberg/the-biggest-misconception-about-git-b2f87d97ed52)
+    - <https://smusamashah.github.io/blog/2017/10/14/explain-git-in-simple-words>
+    - [Git Internals by Scott Chacon](https://github.com/pluralsight/git-internals-pdf) (how git works internally)
 
 - diff
     - word-diff
